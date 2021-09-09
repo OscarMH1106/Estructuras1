@@ -44,7 +44,7 @@ void calculadora(int *num1,int *num2)
     printf("*:Multiplicacion\n");
     printf("/:Division\n");
     printf("^:Potencia\n");
-    printf("%:Modulo\n");
+    printf("%c:Modulo\n",37);
     printf("r:Raiz cuadrada\n");
     scanf("%s",&cont);
     switch (cont)
